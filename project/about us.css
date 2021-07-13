@@ -1,0 +1,157 @@
+body
+{
+   background-color: rgb(15, 15, 13);
+    border: 20px solid rgb(238, 195, 195) ;
+    margin: auto;
+}
+.container
+{
+    color: rgb(186, 236, 47);
+     height: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 40px;
+     margin-bottom: 40px ;
+    
+
+}
+.container.image {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-color: blanchedalmond 4px;
+    
+}
+.image {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+.image img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+    border-radius: 8%;
+}
+
+.image:hover img {
+    transform: scale(1.5);
+}
+
+.about
+{
+   
+   margin-right: 20%;
+}
+
+.about h1 {
+    margin-top: 10px;
+    font-size: 4em;
+    color: white;
+    font-weight: 200;
+    
+  }
+
+  .about #h1::after
+   {
+    content: "Know More about us!!";
+    display: flex;
+    transform: rotateX(180deg);
+    background-image: linear-gradient(180deg, rgba(15, 11, 11, 0) 10%, rgba(255, 255, 255, .5));
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .about p{
+      font-size: x-large;
+      color: rgb(101, 219, 223);
+  }
+
+
+
+  .column1
+{
+    width: 100%;
+    transition: 0.3s all ease-in-out;
+    border-radius: 8%;
+}
+
+.column2
+{
+    width: 100%;
+    transition: 0.3s all ease-in-out;
+    border-radius: 8%;
+}
+
+.column3
+{
+    width: 100%;
+    transition: 0.3s all ease-in-out;
+    border-radius: 8%;
+}
+
+.column1:hover 
+ {
+    transform: scale(1.2);
+}
+
+.column2:hover
+    {
+        transform: scale(1.2);
+    }
+.column3:hover 
+     {
+         transform: scale(1.2);
+    }
+.column1 
+    {
+    
+        width: 300px;
+        padding: 10px;
+        height: 300px; 
+        padding: 20px;
+        position: absolute;
+        left: 10%;
+        top: 60%;
+        margin-bottom: 50px;
+        
+    }
+  
+
+  .column2 
+     {
+    
+        width: 300px;
+        padding: 10px;
+        height: 300px; 
+        padding: 20px;
+        /* position: absolute; */
+          top: 60%;  
+        margin: 110px auto 0;
+        margin-bottom: 50px;
+       
+     }
+  
+  .column3
+     {
+    
+        width: 300px;
+        padding: 10px;
+        height: 300px; 
+        padding: 20px;
+        position: absolute;
+        right: 10%;
+        top: 60%;
+        margin-bottom: 50px;
+        
+    } 
+  
+   
+  
+  
+  
+  
+  
+  

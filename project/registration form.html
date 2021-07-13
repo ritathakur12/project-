@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  FORM PAGE 
+  </title>
+  </head> 
+  <body style="background-color:#FEBFB3; font-family:'Lucida Handwriting';  color:#45171D;">
+  <h1><font size="12"><center>DOG  BOOKING FORM</center></font>  </h1> 
+  <br>
+  <form method="post" action="booking.php"> 
+    <fieldset>
+    <legend ><font size="5">USER INFORMATION:</font></legend>
+  <label for="NAME"> NAME:</label> 
+  <input type="text" name="NAME" ><br><br> 
+  </fieldset>
+  <fieldset>
+  <legend><font size="5">DOG INFORMATION:</font></legend>
+  <label for="GENDER"> GENDER:</label><br> 
+<input type ="radio"id="male" name="GENDER" value="male" checked="checked">
+<label for="male"> MALE</label><br>
+<input type ="radio"id="female" name="GENDER" value="female" >
+<label  for="male"> FEMALE</label><br> 
+
+</fieldset>
+<fieldset>
+    <p><font size="4.5">DOB:</font>  <input type="date" name="DOB" id="birth"></p>
+    <p><font size="4.5">Date Of  RECIEVING: </font>  <input type="date" name="Date_RECIEVING" id="Date_RECIEVING"></p>
+<label for="courses">BREED:</label>
+<select id=""courses" name="BREED"  >
+<option>Husky</option>
+<option>Pug</option>
+<option> labrador</option>
+<option>doberman</option>
+<option>pit bull terrier</option>
+<option>maltese</option>
+<option>great done</option>
+<option>chow chow</option>
+<option>samoyed</option>
+<option>border-collie</option>
+<option>bischon frise</option>
+<option>maltipoo</option>
+<option>jack-russell</option>
+<option>kangal shephard</option>
+<option>bull-mastiff</option>
+<option>leonberger</option>
+<option>havansee</option>
+
+</select><br><br>
+<BR>
+  <label for="EMAIL">ENTER EMAIL ADDRESS:</label> 
+<input type="EMAIL" id="email" name="EMAIL" ><br><br> 
+<label for="PHONE">PHONE NUMBER:</label> 
+<input type="text" name="PHONE_NUMBER" >
+</select><br><br>
+
+<h7><font size="4">ADDRESS :</font></h7>
+<BR>
+
+<textarea name="ADDRESS" rows="10" cols="20">
+</textarea><br><br>
+<input type="submit" value="BOOK">
+<input type="reset" value="RESET"><br><br>
+</form>
+ </body> 
+ </html>

@@ -1,0 +1,30 @@
+.bodyp{
+  background-color: #D83A56;
+  padding:0px 200px 100px 250px;
+}
+.heyya{
+  height:600px;
+  width:650px;
+}
+#testimonial-carousel{
+  height:500px;
+width:500px;
+}
+#navnav{padding:0px;}
+.imggg{height:600px;
+width:650px;}
+.head{font-family: 'Otomanopee One', sans-serif;
+font-size:4.5rem;}
+#navnav{text-align:right;
+height:100px;}
+.collapse{text-align:right;
+height:80px;
+padding-left:550px;}
+#dropdownMenuButton{background-color:#FDFAF6;
+color:black;}
+#opp{font-family: 'Merriweather Sans', sans-serif;}
+#newfoot{padding:2%;
+  text-align:center;
+  background-color:white;}
+.bold{font-size:1.5rem;}
+.nav-item{margin-left:20px;}
